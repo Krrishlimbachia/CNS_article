@@ -4,7 +4,7 @@
 
 ---
 
-Every time you visit a website and see that small padlock icon in your browser's address bar, a remarkable series of cryptographic operations has already taken place in milliseconds - silently, invisibly, and entirely on your behalf. HTTPS (HyperText Transfer Protocol Secure) is the backbone of internet security, and understanding how it works means understanding some of the most elegant ideas in modern cryptography.
+Every time you visit a website and see that small padlock icon in your browser's address bar, a remarkable series of cryptographic operations has already taken place in milliseconds silently, invisibly, and entirely on your behalf. HTTPS (HyperText Transfer Protocol Secure) is the backbone of internet security, and understanding how it works means understanding some of the most elegant ideas in modern cryptography.
 
 This article breaks down the journey of a single HTTPS connection: from the moment you type a URL to the moment your data travels securely across the internet.
 
@@ -12,7 +12,7 @@ This article breaks down the journey of a single HTTPS connection: from the mome
 
 ## The Problem HTTPS Solves
 
-The original HTTP protocol sends data as plain text. Every packet meaning your login credentials, your credit card number, your private messages — travels across routers and cables in a form that any eavesdropper can read. This is called a **cleartext** or **plaintext** vulnerability.
+The original HTTP protocol sends data as plain text. Every packet meaning your login credentials, your credit card number, your private messages travels across routers and cables in a form that any eavesdropper can read. This is called a **cleartext** or **plaintext** vulnerability.
 
 Consider sitting in a coffee shop on public Wi-Fi. Without HTTPS, anyone running a packet-sniffing tool on the same network can read exactly what you are sending to any website. This is known as a **Man-in-the-Middle (MITM) attack**, a threat well-documented in cryptographic literature and frighteningly easy to execute in practice.
 
